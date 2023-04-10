@@ -1,0 +1,86 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Database Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+
+    'CH_ID' => 'Sequence',
+    'D_ID' => 'Detail',
+    'Name' => 'Name',
+    'WarType' => 'War type',
+    'WarPhase' => 'War phase',
+    'Type' => 'Type chassis',
+    'Slot_Bow' => 'Bow slots',
+    'Slot_Side' => 'Side slots',
+    'Slot_Aft' => 'Aft slots',
+    'Slot_Transport' => 'Transport slots',
+    'Slot_Remote' => 'Remote slots',
+    'Slot_Special' => 'Special slots',
+    'военный' => 'military',
+    'гражданский' => 'civil',
+    'Транспорт' => 'Transport',
+    'Катер' => 'Cater',
+    'Линкор' => 'Battleship',
+    'Корвет' => 'Corvette',
+    'Пехота' => 'Infantry',
+    'Бронетехника' => 'Armored',
+    'Полный цикл' => 'Full cycle',
+    'Орбитальная фаза' => 'Orbital phase',
+    'Наземная фаза' => 'Ground phase',
+    'Шаттл' => 'Shuttle',
+    'Коммерческий шаттл' => 'Commercial shuttle',
+    'Зонд' => 'Probe',
+    'Зенитный крейсер' => 'Aircraft cruiser',
+    'Лёгкий крейсер' => 'Light cruiser',
+    'Штурмовик' => 'Stormtrooper',
+    'Лаборатория' => 'Lab',
+    'Пират' => 'Pirate',
+    'Микрозонд' => 'Microprobe',
+    'Орбитальная крепость' =>'Orbital Fortress',
+    'Ниндзя' =>'Ninja',
+    'Военный транспорт' =>'Military transport',
+    'Москит' =>'Mosquito',
+    'Сторожевик' =>'Patrol boat',
+    'Рейсовый транспорт' =>'Regular transport',
+    'Ракетный крейсер' =>'Missile cruiser',
+    'Минилаборатория' =>'Minilab',
+    'Летучий голландец' =>'Flying Dutchman',
+    'Большая орбитальная крепость' =>'Great Orbital Fortress',
+    'Планетарный штурмовик' =>'Planet stormtrooper',
+    'Крейсер' =>'Cruiser',
+    'Звезда смерти' =>'The Death Star',
+    'Ракетный бот' =>'Rocket bot',
+    'Крейсер разведки' => 'Reconnaissance cruiser',
+    'Орбитальная платформа' => 'Orbital platform',
+    'Силы самообороны' => 'Self-Defense Forces',
+    'Боевые роботы' => 'Combat robots',
+    'Танк' => 'Tank',
+    'Бункер' => 'Bunker',
+    'Боевые дройды' => 'Battle droids',
+    'Батарея ПВО' => 'Air defense battery',
+    'Ракетная батарея' => 'Rocket battery',
+    'Большой бункер' => 'Big Bunker',
+    'Тяжелый робот' => 'Heavy robot',
+    'Бакен' => 'Buoy',
+    'Орбитальное поселение' => 'Orbital settlement',
+    'Большое орбитальное поселение' => 'Large Orbital Settlement',
+    'Абордажная команда' => 'Boarding team',
+    'Тяжелая абордажная команда' => 'Heavy boarding team',
+    'Абордажные дройды' => 'Boarding Droids',
+    'Сборщик лома' => 'Scrap Collector',
+    'Большой сборщик лома' => 'Big Scrap Collector',
+    'Мобильная станция слежения' => 'Mobile tracking station',
+    'Тяжелая пехота' => 'Heavy Infantry',
+    'Батарея ПКО' => 'PKO battery',
+    'Управляющий добычей' => 'Production manager',
+    'Орбитальный док' => 'Orbital Dock',
+];

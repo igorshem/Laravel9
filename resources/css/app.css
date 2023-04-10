@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* пункт гл. меню */
+ul.primary li a {
+    padding: 0px 10px;
+}
+/* подменю неактивированное состояние */
+ul.sub {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+/* пункт подменю */
+ul.sub li a {
+    padding: 0px 10px;
+/*    border: 1px dotted blue;*/
+}
+/* вкл. подменю - состояние отрисовки */
+ul.primary li:hover ul {
+    display: block;
+}
+/* hover как primary, так и sub = состояние открытия меню, но без выделения конкретного пункта */
+ul.primary li:hover a {
+/*    background: #fff;
+    color: yellow;
+    text-shadow: none;*/
+}
+/* hover для primary, работает только после <ul.primary li:hover a> = состояние открытия меню, конкретный выбранный пункт подменю + открывший пункт гл.меню */
+ul.primary li:hover > a{
+/*    color: red;*/
+}
+button.langselect:hover ~ .langoptions{
+    display: block;
+}
+button.langselect ~ .langoptions:hover{
+    display: block;
+}
+table.dataTable > tbody > tr.odd > td {
+    background: #e2e8f0;
+}
+table.dataTable > tbody {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+    padding-top: 0rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+}
+@media (min-width: 1225px) {
+    table.dataTable > tbody {
+        font-size: 0.75rem; /* 12px */
+        line-height: 1rem; /* 16px */
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+table.dataTable > thead {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+}
+@media (min-width: 1225px) {
+    table.dataTable > thead {
+        font-size: 0.875rem; /* 14px */
+        line-height: 1rem; /* 16px */
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+table.dataTable > thead > th > div {
+    text-align: center;
+}
+table.dataTable {
+    paddin-top: 0.75rem;
+    paddin-bottom: 0.75rem;
+}
+div#tblValues_wrapper {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+div#tblValues_length, div#tblValues_info {
+    font-size: 0.875rem;
+    padding-bottom: 0.75rem;
+}
+div#tblValues_filter, div#tblValues_paginate {
+    font-size: 0.875rem;
+    padding-bottom: 0.75rem;
+}
+div#tblValues_length > label > select[name="tblValues_length"] {
+    border: 1px solid rgb(59 130 246);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+div#tblValues_filter > label > input[type="search"] {
+    border: 1px solid rgb(59 130 246);
+    border-radius: 0.5rem;
+    outline: none;
+}
+div#tblValues_paginate > span > a {
+    border: 1px solid rgb(59 130 246);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+a#tblValues_previous:hover, a#tblValues_next:hover {
+    color: rgb(59 130 246) !important;
+    background: rgb(236 254 255) !important;
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+a#tblValues_previous, a#tblValues_next {
+    text-decoration: underline !important;
+}
+.min-w-200 {
+    min-width: 200px;
+}
